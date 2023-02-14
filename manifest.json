@@ -1,0 +1,37 @@
+{
+  "name": "eVenues",
+  "short_name": "eVenues",
+  "description": "Unique Meeting Spaces for the Everyday Planner",
+  "icons": [
+    {
+      "src": "/images/icons/apple-touch-icon-114x114.png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "/images/icons/apple-touch-icon-120x120.png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/images/icons/apple-touch-icon-144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/icons/apple-touch-icon-152x152.png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/images/icons/apple-touch-icon-180x180.png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/images/icons/apple-touch-icon-180x180.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/apple-touch-icon-180x180.png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "/"
+}

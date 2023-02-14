@@ -1,0 +1,70 @@
+/**Data Grid and Pagination**/
+div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_length label,
+div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: 500 !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 300px;
+}
+
+.page-item.active .page-link {
+    background-color: #0094ff;
+    border-color: #0094ff;
+}
+
+.page-link {
+    color: var(--anchor-color);
+}
+
+    .page-link:hover {
+        color: var(--anchor-hover-color);
+    }
+
+a.sh-pwd {
+    color: inherit !important;
+    font-size: 13px;
+}
+
+.dataTables_filter input {
+    width: 250px !important;
+}
+
+.table
+{
+    font-size:11px;
+    font-weight:100;
+}
+
+.table th{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.table tr {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.table td {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+@media (max-width: 767.98px) {
+    .dataTables_length label, .dataTables_info {
+        float: left;
+        margin-bottom: 12px;
+    }
+
+    .dataTables_filter {
+        margin-left: -12px;
+        float: left;
+    }
+
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        justify-content: flex-start !important;
+        margin-left: -12px;
+    }
+}
+

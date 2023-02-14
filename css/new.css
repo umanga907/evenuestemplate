@@ -1,0 +1,302 @@
+.heading-area {
+    padding: 11px 0 11px 0;
+}
+.heading-menu ul {
+    list-style: none;
+    padding-left: 0;
+    /* display: flex; */
+    margin-bottom: 7px;
+}
+.heading-menu ul li{
+display: inline-block;
+font-size: 8pt;
+   /* padding-right: 15px;*/
+}
+.heading-menu ul li.menus {
+    color: #0071c2;
+    font-weight: 600;
+}
+.heading-menu ul li.breadcrumb {
+    font-weight: 700;
+}
+li.menus-option-gray {
+    color: gray;
+    font-weight: 600;
+}
+.box-spacing {
+    -webkit-justify-content: unset !important;
+    -ms-flex-pack: justify;
+    justify-content: unset !important;
+    padding-top: 15px;
+}
+.data-section-heading h4 {
+    font-size: 16pt;
+    margin-top: 13px;
+}
+ul.search-card__list.small li span {
+    font-size: 14px;
+}
+ul.search-card__price.top-spacing li {
+    font-size: 14px;
+        font-family: "Muli", sans-serif;
+}
+.top-picks-section {
+    display: flex;
+}
+.top-spacing {
+    margin-top: 25px;
+}
+.data-section-heading {
+    margin-bottom: 40px;
+}
+.search-section h4 {
+    font-size: 21.4px;
+}
+.search-section {
+    margin-bottom: 15px;
+    background: #f9622e;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.down-angle {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.sort-option {
+    min-width: 80px;
+    margin-top: 8px;
+}
+.sort-option span {
+    font-weight: 600;
+}
+input#inputPassword5 {
+    padding-left: 50px;
+}
+.seaction-section-inputs img {
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.seaction-section-inputs {
+    position: relative;
+    margin-bottom: 10px;
+}
+.search-section-images {
+    height: 48px;
+    background: #dde0e3;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: 1024;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+}
+.seaction-section-inputs input#inputText {
+    padding-left: 60px;
+}
+.select-option {
+    position: relative;
+    margin-bottom: 10px;
+}
+.select-option img {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+}
+.select-option select.form-select {
+    padding-left: 60px;
+}
+button.search-btn {
+    display: flex;
+    align-items: center;
+    background: #0fb5cd;
+    margin: 0 auto;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+button.search-btn i {
+    padding-right: 10px;
+}
+.filter-top {
+    max-width: 300px;
+}
+select.form-select.filter-top {
+    background-image: none;
+    padding-left: 40px;
+    color: #000000;
+    background: #e9ecef;
+    border: none;
+    cursor: pointer;
+}
+.filter-box {
+    position: relative;
+    width: fit-content;
+}
+.down-angle {
+    font-size: 30px !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    pointer-events: none;
+}
+.arrows {
+    display: flex;
+    /* color: #3a7aec; */
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+.form-select:focus {
+    border-color: unset !important;
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+.breadcrumb {
+    display: unset;
+    margin-bottom: 0 !important;
+}
+.room_listing{
+position: relative;
+    display: inline-flex;
+}
+.room_listing .search-card__image {
+        margin-right: 13px;
+    flex-basis: unset;
+    display: inline-block;
+}
+.room_listing .search-card__image img{
+     height: 198px;
+    width: 300px;
+    min-width: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.list_row{
+    box-sizing: content-box;
+    background-color: #fff;
+
+}
+.line3{
+           height: 1px;
+    margin: 7px 0;
+    background: #e5e7eb;
+}
+.padding_list{
+    padding: 20px;
+}
+.list_outer1 ul.search-card__list.small li span{
+    margin-top: 18px;
+    display: inline-block;
+}
+.list_outer1{
+        padding:0px;
+    border-color: #e5e7eb;
+    border-radius: 8px 8px 0 0;
+    border-top-width: 1px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 26%);
+    display: block;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.list_outer1 .search-card__rightinfo{
+    align-items: start
+}
+.list_row .row{
+        width: 100%;
+    margin: auto;
+}
+.list_outer1 .search-card__number{
+        top: -7px;
+    left: -14px;
+}
+@media (max-width: 1350px) {
+.search-card__image{
+        flex-basis: 25% !important;
+}
+.search-card__info{
+    flex-basis: 50% !important;
+}
+} 
+@media (max-width: 1199px){
+    .room_listing .search-card__image img{
+        height: 100%;
+        width: 230px;
+        min-width: 230px;
+    }
+    .list_outer1 .search-card__rightinfo{
+            padding-left: 20px;
+    }
+}
+@media (max-width:991px){
+    .list_outer1 .search-card__rightinfo{
+        padding-left: unset;
+        flex-direction: initial;
+        width: 100%;
+        justify-content: space-between !important;
+        margin: 14px 17px 14px 5px;
+    }
+    .list_outer1 .top-spacing{
+    margin-top: 0;
+    }
+}
+@media (max-width: 576px) {
+    .list_outer1 ul.search-card__list.small li span {
+    margin-top: 0;
+}
+    .list_outer1 .search-card__number{
+        top: 8px;
+        left: 11px;
+    }
+    .list_outer1 .search-card__leftinfo{
+    justify-content: center;
+    padding: 0 0 0 18px;
+    }
+    .list_outer1 .search-card__rightinfo{
+        padding: 14px 12px 14px 18px;
+    }
+    .room_listing .search-card__image{
+        margin-right: 0
+    }
+    .room_listing .search-card__image img {
+    height: auto;
+    width: 100%;
+    min-width: unset;
+    margin-bottom: 12px;
+}
+   .room_listing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+   
+ul.search-card__price.top-spacing li {
+    font-size: 11px;
+    font-family: "Muli", sans-serif;
+}
+ul.search-card__list.small li span {
+    font-size: 11px;
+}
+ul.search-card__list.small {
+    margin-bottom: 0;
+}
+.top-spacing {
+    margin-top: 10px;
+}
+
+ }
