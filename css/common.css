@@ -1751,7 +1751,7 @@ label.error {
 .article-container {
     max-width: 1140px;
 }
-.article-page .entry-title{
+/* .article-page .entry-title{
     font-size: clamp(31px, 4vw, 42px);
     line-height: 1.2;
     font-weight: 600;
@@ -1778,7 +1778,7 @@ label.error {
     margin-top: 45px;
     font-size: clamp(28px, 4vw, 36px);
     line-height: 1.2;
-}
+} */
 
 .article-page ul {
     font-family: "Open Sans",sans-serif;
